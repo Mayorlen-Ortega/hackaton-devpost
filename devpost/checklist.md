@@ -9,7 +9,7 @@ Build mode: learn
 
 ## Slices
 
-- [ ] **1. Create a report and view its detail page**
+- [x] **1. Create a report and view its detail page**
   Becomes usable: A local Angular and Python app starts, the welcome screen leads to either report form, a valid report can be submitted, and its detail page shows the saved report with `No possible matches yet`.
   Why now: This bootstraps both processes inside a real user journey and proves the report data can cross the browser/API boundary before matching complexity is added. It also establishes the calm visual foundation and recoverable form behavior.
   PRD ref: `prd.md > The Core Journey`; `prd.md > Screens and Layout`; `prd.md > Reporting a lost or found pet`; `prd.md > Validation and recovery`; `prd.md > States and Boundaries`
@@ -51,7 +51,7 @@ Build mode: learn
 
 ## Hands-on Checkpoints
 
-- [ ] Early usable behavior explored — after slice 2, inspect the first working possible-match card and give feedback on whether the evidence feels understandable and trustworthy before comparison-page polish.
+- [x] Early usable behavior explored — slice 1 learner check completed; the slice 2 evidence checkpoint remains planned after the matching kernel.
 - [ ] Final kick-the-tires exploration and feedback completed — after slice 4, run the complete demo, test awkward inputs and responsive layouts, and report any revisions.
 
 ## Final Review
