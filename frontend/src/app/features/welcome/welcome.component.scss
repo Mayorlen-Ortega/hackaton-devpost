@@ -1,0 +1,19 @@
+.welcome-page { max-width: 980px; justify-content: center; }
+.brand { display: flex; align-items: center; gap: .65rem; color: var(--green-dark); font-weight: 800; letter-spacing: .02em; }
+.brand-mark { display: grid; place-items: center; width: 2rem; height: 2rem; border: 2px solid var(--green); border-radius: 50%; color: var(--green); font-size: 1.3rem; }
+.welcome-copy { max-width: 650px; margin-top: clamp(4rem, 12vh, 8rem); }
+.eyebrow { color: var(--green); font-weight: 800; text-transform: uppercase; letter-spacing: .14em; font-size: .75rem; }
+h1 { max-width: 680px; margin: .8rem 0 1.2rem; font-size: clamp(2.5rem, 7vw, 5.6rem); line-height: .98; letter-spacing: -.04em; }
+.intro { max-width: 540px; color: var(--muted); font-size: 1.15rem; line-height: 1.6; }
+.choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 3rem; }
+.choice-card { display: flex; gap: 1rem; align-items: flex-start; padding: 1.45rem; color: var(--ink); text-decoration: none; background: rgba(255,253,248,.8); border: 1px solid var(--line); border-radius: 1.25rem; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.choice-card:hover { transform: translateY(-3px); border-color: var(--blue); box-shadow: 0 14px 30px rgba(47,88,69,.1); }
+.choice-primary { background: var(--green); color: white; border-color: var(--green); }
+.choice-primary small { color: rgba(255,255,255,.8); }
+.choice-icon { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: .8rem; background: var(--blue-soft); color: var(--green-dark); font-size: 1.4rem; }
+.choice-primary .choice-icon { background: rgba(255,255,255,.18); color: white; }
+.choice-card strong, .choice-card small { display: block; }
+.choice-card strong { font-size: 1.05rem; margin: .1rem 0 .45rem; }
+.choice-card small { color: var(--muted); line-height: 1.45; }
+.quiet-note { margin-top: 2.2rem; color: var(--muted); font-size: .9rem; }
+@media (max-width: 650px) { .choice-grid { grid-template-columns: 1fr; } .welcome-copy { margin-top: 3.5rem; } }

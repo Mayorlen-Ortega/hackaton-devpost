@@ -1,0 +1,23 @@
+# Devpost Learn personal context
+/devpost/learner-profile.md
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Generated project files
+frontend/node_modules/
+frontend/dist/
+backend/.venv/
+**/__pycache__/
+*.pyc
+backend/data/reports.json
+backend/data/matches.json
+backend/data/images/*
+!backend/data/images/.gitkeep
+
+# Local model caches
+.cache/
+**/.cache/
+**/huggingface/
